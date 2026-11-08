@@ -4,7 +4,7 @@
 //   OR  = || 
 //   NOT = !
 
-const temp = 5;
+//const temp = 5;
 
         // AND &&
 
