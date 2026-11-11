@@ -2,6 +2,8 @@
 
 //ex. static keyword, encapsulation, inheritance
 
+//Uma classe é um recurso do ES6 que oferece uma maneira mais limpa e estruturada de criar e trabalhar com objetos em comparação com as funções construtoras tradicionais. Ela oferece recursos como métodos estáticos, encapsulamento e herança.
+
 
 class Product{
     constructor(name, price){
