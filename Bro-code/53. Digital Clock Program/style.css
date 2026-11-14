@@ -1,0 +1,25 @@
+body{
+    background-image: url(img/pexels-smbnyc-30362663.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.884);
+    backdrop-filter: blur(2px);
+    background-color: hwb(0 100% 0% / 0);
+    width: 100%;
+}
