@@ -1,0 +1,23 @@
+#myBox{
+    background-color: lightgreen;text-align: center;
+    width: 350px;
+    height: 300px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#myBtn{
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#myBtn:hover{
+    background-color: lightgray;
+}
+
+#myBtn:active{
+    background-color: rgb(252, 252, 252);
+}
