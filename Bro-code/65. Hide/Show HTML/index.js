@@ -13,7 +13,4 @@ myButton.addEventListener("click", event => {
         myImg.style.display = "none";
         myButton.textContent = "Show"
     }
-    
-
-    
 });
