@@ -7,44 +7,42 @@ let nomes = [
 	"pedro",
 	"marcela",
 	"carla",
-	
+	"cláudia",
 	"carlos"
 ]
 
-function pesquisarNome(){
+function pesquisarNomes(){
 
-	let nomePesquisa = document.getElementById('campoNome').value
-	let intensLista = ''
+	let nomePesquisa = document.getElementById("campoNome").value
+	let itensLista = ""
 
 	for(indice in nomes){
 		let nome = nomes[indice]
 		if( nomePesquisa == nome ){
-			intensLista += `
+			itensLista += `
 			<li class="list-group-item">
 				${nome}
 			</li>`
+
 		}
 	}
 
-	document.getElementById('lista').innerHTML = intensLista
+	document.getElementById('lista').innerHTML = itensLista
 
 }
+
 
 function carregarNomes(){
 
-	let intensLista = ''
+	let itensLista = ""
 	for(indice in nomes){
-		
+
 		let nome = nomes[indice]
-
-		intensLista += `
-			<li class="list-group-item">
-				${nome}
-			</li>`
-
-		//alert(intensLista)
+		itensLista += `<li class="list-group-item">${nome}</li>`
 	}
 
-	document.getElementById('lista').innerHTML = intensLista
+	document.getElementById('lista').innerHTML = itensLista
 
 }
+
+
